@@ -19,7 +19,7 @@ Enter the code for admin.py and models.py
 Execute Django admin and create details for 10 books
 
 ## PROGRAM
-'''
+```
 admin.py
 
 from django.contrib import admin
@@ -39,7 +39,7 @@ class ferrari_DB(models.Model):
 
 class ferrari_DBAdmin(admin.ModelAdmin):
     list_display=["Buyer_name","Model_no","Email","Date_of_Buy","Cost"]
-'''
+```
 
 
 ## OUTPUT
